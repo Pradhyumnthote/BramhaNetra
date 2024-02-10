@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/lg.png" rel="icon">
+  <link href="assets/img/lg.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -28,13 +28,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Gp
-  * Updated: Jan 29 2024 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -52,6 +45,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a href="" class="nav-item nav-link" data-toggle="modal" data-target="#signupPage">Signup</a></li>
         </ul>
 
       </nav><!-- .navbar -->
@@ -85,6 +79,7 @@
     <table style = "width:300px; padding: 0 1.6rem; ">
       <td><button class="button-upload" type="button"><i class="fa fa-upload"></i>Click me</button></td>
       <td><button class="button-upload" type="button"><i class="fa fa-camera"></i>Click me</button></td>
+
     </table>
   </div>
 </center>
@@ -93,6 +88,45 @@
   <p>Will Print Result Here</p>
 </div>
 
+
+<div class="modal fade" id="signupPage">
+  <div class="modal-dialog">
+      <div class="modal-content">
+
+          <div class="modal-header text-center">
+              <h4 class="modal-title text-center w-100 font-weight-bold">Sign Up</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-lable="close">&times;</button>
+          </div>
+  
+  <form method = "POST" action = "signup.php" >
+          <div class="modal-body mx-3">
+
+              <div class="md-form mb-5">
+                  <i class="fas fa-user prefix grey-text"></i>
+                  <label data-error="wrong" data-success="right">Your Name</label>
+                  <input type="text" placeholder="Enter Name..." class="form-control validate" name="name" id="uname">
+              </div>
+
+              <div class="md-form mb-5">
+                  <i class="fas fa-envelope prefix grey-text"></i>
+                  <label data-error="wrong" data-success="right">Your Email</label>
+                  <input type="email" placeholder="Enter Email..." name="uname"class="form-control validate">
+              </div>
+
+              <div class="md-form mb-5">
+                  <i class="fas fa-lock prefix grey-text"></i>
+                  <label data-error="wrong" data-success="right">Your Password</label>
+                  <input type="password" placeholder="Enter Password..." name="pass" class="form-control validate">
+
+              </div>
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+              <button class="btn btn-warning" type="submit"> Sign Up</button>
+          </div>
+  </form>
+      </div>
+  </div>
+</div>
 
 
 <style>
