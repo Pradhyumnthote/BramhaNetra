@@ -1,0 +1,67 @@
+.brahmi{
+    padding-top:0.2em;
+    line-height:19px;
+}
+.grantha{
+    padding-top:0.2em;
+    line-height:19px;
+}
+.sharada {
+    padding-top:0.6em;
+    line-height:9px;
+}
+.siddham {
+    padding-top:0.8em;
+    line-height:4px;
+}
+.tirhuta{
+    padding-top:0.2em;
+    line-height:19px;
+}
+.separator{
+    line-height:10px;
+}
+.letter{
+   padding: 0 0;
+   text-align:center;
+   background: #fff;
+   border-radius: 2px;
+   display: inline-block;
+   margin: 0.5rem 0;
+   position: relative;
+   height: 90px;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+   width: 90px;
+}
+.letter-lg{
+   width: 130px;
+   height: 100px;
+}
+.letter-xs{
+   width: 80px;
+   height: 75px;
+}
+.letter div{
+ -webkit-user-select: none; /* Safari 3.1+ */
+ -moz-user-select: none; /* Firefox 2+ */
+ -ms-user-select: none; /* IE 10+ */
+ user-select: none; /* Standard syntax */
+
+}
+.listWord{
+   margin-top:0.1em;
+   margin-left:0;
+   padding-left:0.5em;
+   padding-right:0.5em;
+   min-width: 84px;
+   padding-bottom:10px;
+}
+.listWord-lg{
+   min-width: 124px;
+   padding-bottom:20px;
+}
+.listWord-xs{
+   min-width: 75px;
+   min-height: 70px;
+   padding-top:22px;
+}

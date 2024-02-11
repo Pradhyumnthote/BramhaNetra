@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Noto Sans Brahmi';
+    src: url(../fonts/NotoSansBrahmi-Regular.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Noto Sans Grantha';
+    src: url(../fonts/NotoSansGrantha-Regular.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Noto Sans Sharada';
+    src: url(../fonts/NotoSansSharada-Regular.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Noto Sans Siddham';
+    src: url(../fonts/NotoSansSiddham-Regular.otf) format('opentype');
+}
+@font-face {
+    font-family:Noto Sans Tirhuta;
+    src: url(../fonts/NotoSansTirhuta-Regular.otf) format('opentype');
+}
+@font-face {
+    font-family:Mithilakshar;
+    src: url(../fonts/MithilaUni.ttf) format('truetype');
+}
+.brahmi{
+    font-family: 'Noto Sans Brahmi';
+}
+.grantha{
+    font-family: 'Noto Sans Grantha';
+}
+.devanagari{
+    font-family: 'Noto Sans';
+}
+.sharada {
+    font-family: 'Noto Sans Sharada';
+}
+.siddham {
+    font-family: 'Noto Sans Siddham';
+}
+.tirhuta {
+    font-family: 'Mithilakshar';
+    font-size: 1.1em;
+}
