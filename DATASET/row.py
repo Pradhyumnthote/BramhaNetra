@@ -33,10 +33,10 @@ def crop_and_save(image_path, output_root_folder):
             cropped_image = original_image.crop((left, upper, right, lower))
 
             # Save the cropped image to the row folder
-            output_path = os.path.join(row_folder, f"set1_p2{i}.png")
+            output_path = os.path.join(row_folder, f"mis_p1{i}.png")
             cropped_image.save(output_path)
 
 # Example usage
-image_path = "D:\\DATASET\\s1_p2.jpg"
-output_root_folder = "p2"
+image_path = "D:\\CDAC PROJECT\\DATASET\\mistake.jpg"
+output_root_folder = "p1"
 crop_and_save(image_path, output_root_folder)
