@@ -6,7 +6,6 @@ import numpy as np
 from PIL import Image
 from indic_transliteration import sanscript
 from tensorflow.keras.preprocessing.image import img_to_array, load_img
-from tensorflow.keras.applications.inception_resnet_v2 import preprocess_input, decode_predictions
 
 os.environ['GRADIO_ANALYTICS_ENABLED'] = 'False'
 
