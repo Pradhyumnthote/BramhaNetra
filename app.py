@@ -1,11 +1,11 @@
 import gradio as gr
 import os
-from tensorflow.keras.models import load_model
+from keras.models import load_model
 import tensorflow as tf
 import numpy as np
 from PIL import Image
 from indic_transliteration import sanscript
-from tensorflow.keras.preprocessing.image import img_to_array, load_img
+from keras.preprocessing.image import img_to_array, load_img
 from keras.applications.inception_resnet_v2 import preprocess_input
 
 
