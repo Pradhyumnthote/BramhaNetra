@@ -1,5 +1,6 @@
 
-# BramhaNetra: Ancient Character Recognition (ACR)
+<img src="main_logo.png" alt="LOGO" width="150" height="50"><h1>BramhaNetra: Ancient Character Recognition (ACR)</h1>
+
 
 BramhaNetra is an innovative project that focuses on Ancient Character Recognition (ACR), serving as a gateway to unraveling the rich tapestry of human history encoded within millennia-old manuscripts. The project employs a fusion of transfer learning, OpenCV, and convolutional neural networks (CNNs) to advance the frontiers of script decipherment and preservation.
 
@@ -32,15 +33,17 @@ To install BramhaNetra, follow these steps:
 
 Our dataset was manually created by writing on 18x12 grid paper. The reference for writing the dataset was taken from the book [AAO BRAHMI LIPI SIKHE](https://amzn.in/d/ewtohZ2) by Meshram, Dr. Pradip Shaligram, and Chaudhary, Dhiraj Yadavrav (2022), published by Samyak Prakashan. The dataset was meticulously crafted by transcribing the characters and symbols onto the grid paper, ensuring accuracy and consistency.
 
-![Book Cover](refbook.jpg)
+<img src="refbook.jpg" alt="LOGO" width="400" height="600">
+
+
 
 ### Data Collection Method
 
 The dataset was meticulously crafted by transcribing the characters and symbols onto the grid paper, ensuring accuracy and consistency.
 
 #### Dataset Sample
+<img src="dataset1.jpg" alt="LOGO" width="400" height="600">
 
-![Dataset Sample](dataset1.jpg)
 
 ## Model (InceptionResNetV2)
 
