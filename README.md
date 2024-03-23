@@ -32,7 +32,7 @@ To install BramhaNetra, follow these steps:
 
 Our dataset was manually created by writing on 18x12 grid paper. The reference for writing the dataset was taken from the book [AAO BRAHMI LIPI SIKHE](https://amzn.in/d/ewtohZ2) by Meshram, Dr. Pradip Shaligram, and Chaudhary, Dhiraj Yadavrav (2022), published by Samyak Prakashan. The dataset was meticulously crafted by transcribing the characters and symbols onto the grid paper, ensuring accuracy and consistency.
 
-![Book Cover](template\assets\img\refbook.jpg)
+![Book Cover](.\template\assets\img\refbook.jpg)
 
 ### Data Collection Method
 
